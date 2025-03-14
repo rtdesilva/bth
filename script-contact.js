@@ -1,3 +1,10 @@
+
+// Toggle Menu Function (for navbar)
+function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+}
+
+// contact form validations
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contact-form');
     
